@@ -1,0 +1,44 @@
+.achievement-page {
+    background-color: slategray; /* Change this color */
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.achievement-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .achievement-card {
+    background: lightgray;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .achievement-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .achievement-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .achievement-details {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #333;
+  }
+  

@@ -1,0 +1,15 @@
+<div class="container mt-4">
+    <h3 class="text-center">Enquiry Responses</h3>
+    <div *ngIf="enquiries.length === 0" class="alert alert-info">
+      No enquiries found.
+    </div>
+    <div *ngFor="let enquiry of enquiries" class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ enquiry.name }}</h5>
+        <p class="card-text">Email: {{ enquiry.email }}</p>
+        <p class="card-text">Message: {{ enquiry.message }}</p>
+        <p class="card-text"><small class="text-muted">Submitted on: {{ enquiry.date | date }}</small></p>
+      </div>
+    </div>
+  </div>
+  

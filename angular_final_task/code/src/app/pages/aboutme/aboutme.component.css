@@ -1,0 +1,39 @@
+/* Overall background color */
+:host {
+    background: slategrey;  /* Change this to any color you like */
+    display: block;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .author-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333;
+  }
+  
+  .author-text {
+    flex: 1;
+  }
+  
+  .author-text p {
+    margin: 0 0 15px;
+    line-height: 1.6;
+  }
+  

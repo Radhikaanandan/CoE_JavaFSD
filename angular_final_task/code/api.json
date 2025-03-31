@@ -1,0 +1,167 @@
+{
+  "achievements": [
+    {
+      "awardname": "CWA New Blood Dagger Award",
+      "bookname": "Sharp Objects",
+      "year": "2007",
+      "image": "cwa.jpg",
+      "description": "Awarded for the best debut crime novel.",
+      "id": "df7e"
+    },
+    {
+      "awardname": "Ian Fleming Steel Dagger",
+      "bookname": "Sharp Objects",
+      "year": "2007",
+      "image": "ian.jpg",
+      "description": "Recognized for best thriller of the year.",
+      "id": "d12c"
+    },
+    {
+      "awardname": "BAFTA Nomination",
+      "bookname": "Gone Girl",
+      "year": "2014",
+      "image": "bafta.jpg",
+      "description": "Nominated for Best Adapted Screenplay.",
+      "id": "ec07"
+    },
+    {
+      "awardname": "Critics' Choice Award",
+      "bookname": "Gone Girl",
+      "year": "2014",
+      "image": "critical.jpg",
+      "description": "Won Best Adapted Screenplay for the film adaptation.",
+      "id": "be2e"
+    },
+    {
+      "awardname": "Goodreads choice Awards",
+      "bookname": "Gone Girl",
+      "year": "2012",
+      "image": "gr.jpg",
+      "description": "Won Best Mystery & Thriller.",
+      "id": "eb26"
+    },
+    {
+      "awardname": "Edgar Award",
+      "bookname": "The Grownup ",
+      "year": "2015",
+      "image": "edgar.jpg",
+      "description": "for Best Short Story for her story What Do You Do?, which was later published as a standalone book titled The Grownup. ",
+      "id": "1a05"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "publicationYear": "2012",
+      "coverImage": "gone-girl.jpg",
+      "description": "A thrilling mystery about a woman's disappearance and the dark secrets in a marriage.",
+      "genres": "Mystery, Thriller, Psychological Fiction"
+    },
+    {
+      "id": "2",
+      "title": "Sharp Objects",
+      "author": "Gillian Flynn",
+      "publicationYear": "2006",
+      "coverImage": "sharp-object.jpg",
+      "description": "A gripping psychological thriller about a reporter investigating a series of murders in her hometown.",
+      "genres": "Mystery, Thriller, Crime Fiction"
+    },
+    {
+      "id": "3",
+      "title": "Dark Places",
+      "author": "Gillian Flynn",
+      "publicationYear": "2009",
+      "coverImage": "dark-place.jpg",
+      "description": "A chilling story about a woman revisiting the traumatic events of her family's murder.",
+      "genres": "Mystery, Thriller, Suspense"
+    },
+    {
+      "id": "4",
+      "title": "The Grownup",
+      "author": "Gillian Flynn",
+      "publicationYear": "2015",
+      "coverImage": "grownup.png",
+      "description": "A twisted ghost story blending psychological suspense and supernatural horror.",
+      "genres": "Horror, Thriller, Short Story"
+    }
+  ],
+  "details": [
+    {
+      "id": "1",
+      "image": "gone-girl.jpg",
+      "title": "Gone Girl",
+      "preview": [
+        "Gone Girl is a psychological thriller about the mysterious disappearance of Amy Dunne and the media frenzy around her husband, Nick."
+      ]
+    },
+    {
+      "id": "2",
+      "image": "sharp-object.jpg",
+      "title": "Sharp Objects",
+      "preview": [
+        "Sharp Objects is a psychological thriller novel written by Gillian Flynn, known for her gripping and dark storytelling. The book was published in 2006 and revolves around Camille Preaker, a newspaper journalist who returns to her hometown to report on the gruesome murders of two pre-teen girls.",
+        "Camille struggles with her own personal demons, including a traumatic past involving her emotionally abusive mother, Adora, and the death of her younger sister, Marian. As Camille digs deeper into the investigation, she uncovers unsettling truths about her family, herself, and the town she thought she knew.",
+        "The novel explores themes of trauma, self-harm, family dynamics, and the impact of hidden secrets.",
+        "Sharp Objects is known for its intense, atmospheric writing, and its exploration of complex, flawed characters.",
+        "The twists and turns in the plot keep readers on edge, making it a compelling read for fans of dark, psychological thrillers.",
+        "The book was adapted into an HBO miniseries in 2018, starring Amy Adams as Camille."
+      ]
+    },
+    {
+      "id": "3",
+      "image": "dark-place.jpg",
+      "title": "Dark Places",
+      "preview": [
+        "Dark Places tells the story of Libby Day, the sole survivor of a massacre who revisits the crime decades later to uncover chilling truths."
+      ]
+    },
+    {
+      "id": "4",
+      "image": "grownup.png",
+      "title": "The Grownup",
+      "preview": [
+        "The Grownup is a gripping short story about a con artist drawn into a dark haunted house tale, where reality and con blur."
+      ]
+    }
+  ],
+  "enquiryresponse": [
+    {
+      "id": "3d80",
+      "name": "Radhika",
+      "email": "radhikaanandan14503@gmail.com",
+      "message": "hii i love your books"
+    },
+    {
+      "id": "bf3c",
+      "name": "tanu",
+      "email": "tanu@shree.com",
+      "message": "i love your books"
+    },
+    {
+      "id": "4372",
+      "name": "diya",
+      "email": "diya@dsn.com",
+      "message": "hii author"
+    },
+    {
+      "id": "e24f",
+      "name": "shal",
+      "email": "shal@de.com",
+      "message": "hello"
+    },
+    {
+      "id": "2dd6",
+      "name": "rad",
+      "email": "rad@we.in",
+      "message": "hellooo"
+    },
+    {
+      "id": "ad29",
+      "name": "dinesh",
+      "email": "din@esh.com",
+      "message": "i love your books author"
+    }
+  ]
+}

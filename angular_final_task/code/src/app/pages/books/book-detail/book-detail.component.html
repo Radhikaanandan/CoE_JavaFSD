@@ -1,0 +1,21 @@
+<div *ngIf="bookDetail; else loading">
+    <h3>{{ bookDetail.title }}</h3>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="http://localhost:8090/{{ bookDetail.image }}" class="img-fluid rounded-start" alt="{{ bookDetail.title }}">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">{{ bookDetail.title }}</h5>
+            <p class="card-text">{{ bookDetail.preview[0] }}</p> <!-- Assuming preview is an array -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #loading>
+    <p>Loading book details...</p>
+  </ng-template>
+  

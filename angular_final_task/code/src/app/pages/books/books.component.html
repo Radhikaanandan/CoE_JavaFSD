@@ -1,0 +1,16 @@
+<div class="page">
+  <h3>Books</h3>
+
+  <!-- Genre Filter -->
+  <div class="filter-container">
+    <label for="genre">Categories:</label>
+    <select id="genre" [(ngModel)]="selectedGenre">
+      <option *ngFor="let genre of genres" [value]="genre">{{ genre }}</option>
+    </select>
+  </div>
+
+  <!-- Book List -->
+  <div>
+    <app-book-item *ngFor="let book of bookList | genreFilter:selectedGenre" [book]="book"></app-book-item>
+  </div>
+</div>

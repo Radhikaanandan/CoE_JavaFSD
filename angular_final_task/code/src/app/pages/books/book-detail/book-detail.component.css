@@ -1,0 +1,63 @@
+/* Update the overall background color */
+body {
+    background-color: slategray; 
+}
+
+/* Styling for the book details container */
+.book-details {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: slategray; /* White background for the book details container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Title and other text styles */
+.book-details h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.book-details h2 {
+    font-size: 1.8em;
+    color: #34495e;
+    margin-top: 10px;
+}
+
+/* Styling for the preview text */
+.book-details .preview {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* List styling */
+.book-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.book-details li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.book-details p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-top: 15px;
+}
+
+.book-details img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,14 @@
+<div class="achievement-page">
+  <h3>Achievements</h3>
+  <div class="achievement-container">
+    <div *ngFor="let achievement of achievements" class="achievement-card">
+      <img src="http://localhost:8090/{{achievement.image}}" alt="{{achievement.awardname}}" class="achievement-img">
+      <div class="achievement-details">
+        <h4>{{ achievement.awardname | titleCase }}</h4>
+        <p><strong>Book:</strong> {{ achievement.bookname }}</p>
+        <p><strong>Year:</strong> {{ achievement.year }}</p>
+        <p>{{ achievement.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
